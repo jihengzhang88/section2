@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-import rclpy
-from rclpy.node import Node
+import rclpy # type: ignore
+from rclpy.node import Node # type: ignore
 # import the message type to use
-from std_msgs.msg import String
+from std_msgs.msg import String # type: ignore
 
 
 class Publisher(Node):
